@@ -2,4 +2,4 @@ This project was bootstrapped with [Web Dev بالعربي.](https://www.youtube
 
 ## Firebase-Storage Demo
 
-Online photo gallery where user can upload files to Firebase Storage and save the link to Firestore to view it.
+Full serverless project using Firebase Storage, Authentication and Firestore for uploading and sharing images for different users.
