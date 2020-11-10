@@ -9,9 +9,9 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import BackupOutlinedIcon from '@material-ui/icons/BackupOutlined';
 import ExitToAppOutlinedIcon from '@material-ui/icons/ExitToAppOutlined';
+import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 
 import { makeStyles } from '@material-ui/core/styles';
-import PhotoLibraryOutlinedIcon from '@material-ui/icons/PhotoLibraryOutlined';
 import { useAuth } from '../hooks/useAuth';
 import { colors } from '../constants/colors';
 import { ListItemIcon } from '@material-ui/core';
@@ -62,7 +62,7 @@ const Header = ({ setOpenUpload }) => {
     <AppBar position="sticky">
       <Toolbar className={classes.root}>
         <div className={classes.root}>
-          <PhotoLibraryOutlinedIcon className={classes.icon} />
+          <PhotoCameraIcon className={classes.icon} />
           <Typography
             variant="h5"
             component="h1"
